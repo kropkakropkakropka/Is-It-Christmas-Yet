@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mountains+of+Christmas&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: auto;
+    height: auto;
+    background: #7e0f12;
+
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    position: relative;
+    z-index: 1;
+}
+.info{
+    color: #f0f4f7;
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+}
+.info h1{
+    font-size: 6em;
+}
+.info p{
+    font-weight: 100;
+    font-size: 1.1em;
+    color: #fac57d;
+}
+.info #but{
+    font-size: 1.3em;
+    padding: 20px;
+    font-weight: bold;
+    color: #d9990b;
+}
+hr{
+    height: 3px;
+    background-color: #1f3102;
+    border: none;
+}
+#timer{
+    font-size: 6em;
+    color: #f0f4f7;
+    text-align: center;
+    margin: 100px;
+    width: 100%;
+}
+footer {
+    background-color: #ddd;
+    display: flex;
+    justify-content: center;
+}
+::-webkit-scrollbar{
+    width: 0;
+}
+#icon{
+    font-size: 1em;
+    color: red;
+}
+#icon a{
+    text-decoration: none;
+    color: red;
+}
+@media only screen and (max-width: 700px) {
+    #timer {
+      font-size: 4em;
+    }
+}
+@media only screen and (max-width: 450px) {
+    #timer {
+      font-size: 3em;
+    }
+    .info h1{
+        font-size: 4.3em;
+    }
+    .info p{
+        font-size: 0.9em;
+    }
+    .info #but{
+        font-size: 1em;
+    }
+  }
+  @media only screen and (max-width: 350px) {
+    #timer {
+      font-size: 2.5em;
+    }
+    .info h1{
+        font-size: 3.9em;
+    }
+    .info p{
+        font-size: 0.8em;
+    }
+    .info #but{
+        font-size: 1em;
+    }
+}
+
