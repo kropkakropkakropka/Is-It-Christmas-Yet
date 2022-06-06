@@ -13,30 +13,27 @@ body{
     background: #7e0f12;
 
 }
-.content{
+main{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    position: relative;
-    z-index: 1;
 }
+.fs-big{font-size: 6rem;}
 .info{
     color: #f0f4f7;
     text-align: center;
     font-family: 'Roboto Mono', monospace;
 }
-.info h1{
-    font-size: 6em;
-}
+
 .info p{
     font-weight: 100;
-    font-size: 1.1em;
+    font-size: 1.1rem;
     color: #fac57d;
 }
 .info #but{
-    font-size: 1.3em;
+    font-size: 1.3rem;
     padding: 20px;
     font-weight: bold;
     color: #d9990b;
@@ -47,7 +44,6 @@ hr{
     border: none;
 }
 #timer{
-    font-size: 6em;
     color: #f0f4f7;
     text-align: center;
     margin: 100px;
@@ -70,17 +66,10 @@ footer {
     color: red;
 }
 @media only screen and (max-width: 700px) {
-    #timer {
-      font-size: 4em;
-    }
+    .fs-big{font-size: 4rem;}
 }
 @media only screen and (max-width: 450px) {
-    #timer {
-      font-size: 3em;
-    }
-    .info h1{
-        font-size: 4.3em;
-    }
+    .fs-big{font-size: 3.5rem;}
     .info p{
         font-size: 0.9em;
     }
@@ -88,10 +77,8 @@ footer {
         font-size: 1em;
     }
   }
-  @media only screen and (max-width: 350px) {
-    #timer {
-      font-size: 2.5em;
-    }
+  @media only screen and (max-width: 375px) {
+    .fs-big{font-size: 3rem;}
     .info h1{
         font-size: 3.9em;
     }
